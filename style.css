@@ -2,7 +2,18 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
+/* @font-face {
+font-family: 'Roboto Black';
+src: url('Roboto-Black.eot');
+src: url('Roboto-Black.eot?#iefix') format('embedded-opentype'),
+url('Roboto-Black.woff') format('woff'),
+url('Roboto-Black.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;      /This will take local fonts/
+} */
+
 
 .container {
     /* position: relative; */
@@ -19,13 +30,8 @@
 }
 
 .logo .logo_img {
-    margin: 0 auto;
     display: block;
-    top: 39px;
-    position: absolute;
-    left: 920px;
-    width: 83px;
-    height: 71px;
+    margin: 0 auto;
     }
 
 .logo .logo_text {
@@ -35,7 +41,7 @@
     font-family: Roboto;
     font-size: 15px;
     font-weight: 500;
-    line-height: 174px;
+    /* line-height: 174px; */
     text-transform: uppercase;
     text-align: center;
     margin-top: 14px;
@@ -45,8 +51,8 @@
 
 .tittle {
 color: #F9BF3B; 
-font-family: "Roboto - Black";
-font-weight: 400;
+font-family: "Roboto";
+font-weight: 900;
 font-size: 41px;
 line-height: 24px;
 text-transform: uppercase;
@@ -54,14 +60,14 @@ text-align: center;
 
 }
 h1 {
-    margin-top: 0px;
+    margin-top: 53px;
 }
 
 .simple .tittle_big {
 color: #ffffff;
-font-family: "Roboto - Black";
+font-family: "Roboto";
 font-size: 80px;
-font-weight: 400;
+font-weight: 900;
 /* line-height: 24px; */ /* This have to be off actually */
 text-transform: uppercase;
 text-align: center;
@@ -77,7 +83,7 @@ h2.tittle {
     font-weight: 300;
     line-height: 28px;/* this is only px between lines, needed only when more than 1 */
     /* Text style for "Ежедневно" */
-    font-family: "Roboto Light";
+    /* font-family: "Roboto Light"; */
     font-weight: 300;
     text-align: center;
     margin-top: 23px;
@@ -85,7 +91,7 @@ h2.tittle {
 .promo .promo_text span {
     text-transform: uppercase;
     color: #f9bf3b;
-    font-family: "Roboto - Bold";
+    /* font-family: "Roboto - Bold"; */
     font-weight: 700;
 }
 .promo .promo_btn, .bonus .bonus_btn {
@@ -100,8 +106,8 @@ h2.tittle {
     background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
     text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
     color: #ffffff;
-    font-family: "Roboto Condensed";
-    font-size: 21px;
+    /* font-family: "Roboto Condensed"; */
+    font-size: 18px;
     font-weight: 400;
     line-height: 24px;
     text-transform: uppercase;
@@ -122,7 +128,7 @@ h2.tittle {
     background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
     text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.22);
     color: #f9bf3b;
-    font-family: "Roboto Condensed";
+    font-family: "Roboto";
     font-size: 21px;
     font-weight: 400;
     line-height: 24px;
@@ -138,7 +144,7 @@ h2.tittle {
 
 .more .more_text {
     color: #ffffff;
-    font-family: "Roboto - Thin";
+    font-family: "Roboto";
     font-size: 15px;
     font-weight: 400;
     text-transform: uppercase;
@@ -204,22 +210,6 @@ h2.tittle {
     font-weight: 300;
     line-height: 21px;
 }
-/* .my-flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    height: 450px;
-    justify-content: space-around;
-    align-items: center;
-}
-.my-flex-block {
-    width: 150px;
-    height: 150px;
-    margin: 0 50px;
-    background-color: red;
-    text-align: center;
-    color: white;
-} */
-
 .optimization {
     position: relative;
     min-height: 550px;
@@ -228,7 +218,7 @@ h2.tittle {
 .optimization .optimization_header {
     margin-left: 391px;
     color: #299cbd;
-    font-family: "Roboto - Black";
+    font-family: "Roboto";
     font-size: 29px;
     font-weight: 400;
     text-transform: uppercase;
@@ -244,7 +234,7 @@ h2.tittle {
 
 }
 .optimization .optimization_text span {
-    font-family: "Roboto - Bold";
+    font-family: "Roboto";
     font-weight: 700; 
 
 }
@@ -332,7 +322,7 @@ h2.tittle {
 }
 .last .last_text_2 {
     color: #299cbd;
-    font-family: "Roboto - Black";
+    font-family: "Roboto";
     font-size: 36px;
     font-weight: 400;
     line-height: 12px;
